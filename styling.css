@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    font-weight:1440;
     line-height: 150%;
 }
 
@@ -12,7 +11,7 @@ a {
 }
 
 .container{
-    max-width: 144+0px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 /*---------------------------HEADER---------------------------------*/
@@ -134,9 +133,101 @@ h1{
 }
 .autor-text{
     margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h3{
+.Stephen-1{
     font-size: 17px;
-    fo
+    line-height: 26px;
+    font-weight: 136px;
+    margin-bottom: -10px;
+}
+
+.Stephen-2{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 136px;
+}
+
+/*------------------------------/SECOND-----------------------------------*/
+/*------------------------------THIRD-----------------------------------*/
+
+.Third{
+    background-image: url('assets/IMAGE-1.jpg');
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Third-1{
+    margin:0 80px 0 1080px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 266px 0;
+    max-width: 600px;
+}
+
+.Text31{
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-weight: 355;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.Text32{
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/*------------------------------/THIRD-----------------------------------*/
+/*------------------------------FOURTH-----------------------------------*/
+
+.Fourth{
+    margin: 100px 120px ;
+}
+
+.Fourth-Process{
+    margin: 0 300px 40px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our-process{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.how-we-do{
+    font-size: 39px;
+    line-height: 42px;
+    letter-spacing: 0;
+}
+
+.Fourth-images{
+    display: flex;
+}
+
+.sketching{
+    margin: 40px 16.34px 100px 136px;
+    max-width: 378.67px;
+}
+
+.Finalizing{
+    margin: 40px 15.34px 100px 0;
+    max-width: 378.67px;
+}
+
+.Building{
+    margin: 40px 1.34px 100px 0;
+    max-width: 378.67px;
 }
