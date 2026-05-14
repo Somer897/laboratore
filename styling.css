@@ -48,7 +48,6 @@ header{
 /*------------------------------FIRST-----------------------------------*/
 
 .First{
-    width: 0 auto;
     background-color: #ECE7E4;
 }
 
@@ -65,7 +64,8 @@ header{
 }
 
 .First-image{
-    margin-left: auto;
+    display: flex;
+    margin-left: 267px;
     width: 720px;
 }
 
@@ -75,7 +75,7 @@ h1{
     line-height: 70.4px;
 }
 
-.First-h5{
+.First-p{
     color: #645C55;
     line-height: 20px;
     font-size: 14px;
@@ -116,6 +116,7 @@ h1{
     font-size: 32px;
     font-weight: 134px;
     line-height: 38px;
+    opacity: 0.8;
 }
 
 .Second-text{
@@ -189,15 +190,20 @@ h1{
 /*------------------------------/THIRD-----------------------------------*/
 /*------------------------------FOURTH-----------------------------------*/
 
-.Fourth{
-    margin: 100px 120px ;
-}
-
-.Fourth-Process{
-    margin: 0 300px 40px 300px;
+.Fourth-main{
+    width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 100px 120px;
+}
+
+.Fourth-Process{
+    display: flex;
+    margin: 0 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
 .our-process{
@@ -211,23 +217,311 @@ h1{
     font-size: 39px;
     line-height: 42px;
     letter-spacing: 0;
+    margin-top: 13px;
 }
 
 .Fourth-images{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 40px 16px 0 16px;
 }
 
 .sketching{
-    margin: 40px 16.34px 100px 136px;
-    max-width: 378.67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16.34px;
+    align-items: center;
+    max-width: 378.66px;
+}
+
+.sketching-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.sketching-text1{
+    line-height: 26px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.sketching-text2{
+    line-height: 24px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 10px 42.66px 0 42px;
+    text-align: center;
 }
 
 .Finalizing{
-    margin: 40px 15.34px 100px 0;
-    max-width: 378.67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 15.34px;
+    align-items: center;
+    max-width: 378.66px;
+}
+
+.Finalizing-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Finalizing-text1{
+    line-height: 26px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.Finalizing-text2{
+    line-height: 24px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 10px 40.33px 0 40.33px;
+    text-align: center;
 }
 
 .Building{
-    margin: 40px 1.34px 100px 0;
-    max-width: 378.67px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 16.34px;
+    align-items: center;
+    max-width: 378.66px;
+}
+
+.Building-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.Building-text1{
+    line-height: 26px;
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+.Building-text2{
+    line-height: 24px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin: 10px 48.33px 0 60.33px;
+    text-align: center;
+}
+
+/*------------------------------/FOURTH-----------------------------------*/
+/*------------------------------Fifth-----------------------------------*/
+
+.Fifth{
+    background-image: url('assets/Fifth-1.jpg');
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Fifth-1{
+    margin:0 80px 0 1080px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 266px 0;
+    max-width: 600px;
+}
+
+.Fifth-text1{
+    letter-spacing: 2px;
+    line-height: 20px;
+    font-weight: 355;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.Fifth-text2{
+    letter-spacing: 0;
+    line-height: 24px;
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+/*------------------------------/Fifth-----------------------------------*/
+/*------------------------------Sixth-----------------------------------*/
+
+.Sixth{
+    background-color: #403E3B;
+    display: flex;
+}
+
+.Sixth-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 90px 136px 60px 146px;
+}
+
+.Sixth-text{
+    margin: 65px 132px 65px 0;
+    width: 440px;
+}
+
+.Sixth-images{
+    margin: 0 144px 0 162px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 432px;
+    gap: 96px;
+}
+
+.Clients{
+    width: 129px;
+    height: 20px;
+    top: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #ECE7E4;
+    font-weight: 300;
+}
+
+.customers{
+    width: 299px;
+    height: 38px;
+    top: 26px;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.Sixth-text1{
+    margin-top: 14px;
+    top: 78px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #ECE7E4;
+    font-weight: 300;
+}
+
+/*------------------------------/Sixth-----------------------------------*/
+/*------------------------------Seventh-----------------------------------*/
+
+
+.Seventh{
+    background-image: url('assets/seventh.jpg');
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seventh-1{
+    margin:0 1080px 0 60px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 266px 0;
+    width: 280px;
+}
+
+.Seventh-text1{
+    width: 223;
+    height: 20;
+    top: 266px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    opacity: 0.75;
+
+}
+
+.Seventh-text2{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.6;
+}
+
+/*------------------------------/Seventh-----------------------------------*/
+/*------------------------------Eighth-----------------------------------*/
+
+.Eighth{
+    background-color: #F7F7F7;
+    display: flex;
+}
+
+.Eighth-main{
+    display: flex;
+    margin: 120px 120px 100px 120px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Eighth-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 584px 40px 16px;
+    width: 600px;
+}
+
+.Eighth-images{
+    display: flex;
+    margin: 0 16px 86px 16px;
+    width: 1168px;
+    justify-content: space-between;
+}
+
+.Eighth-text-1{
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+}
+.Eighth-text-2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    opacity: 0.6;
+}
+
+.Eighth-images1{
+    width: 379px;
+    height: 460px;
+}
+
+.Eighth-images2{
+    background-image: url('assets/IMAGE\ \(4\).jpg');
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 379px;
+    height: 460px;
+}
+
+.Eighth-text2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+}
+
+.Eighth-text3{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    width: 207;
+    left: 0.33px;
+    opacity: 0.7;
+}
+
+.Eighth-text1{
+    margin: 40px 128px 280px 40px;
+    width: 207px;
 }
