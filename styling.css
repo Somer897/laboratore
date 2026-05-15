@@ -473,7 +473,7 @@ h1{
 
 .Eighth-images{
     display: flex;
-    margin: 0 16px 86px 16px;
+    margin: 0 16px 40px 16px;
     width: 1168px;
     justify-content: space-between;
 }
@@ -524,4 +524,208 @@ h1{
 .Eighth-text1{
     margin: 40px 128px 280px 40px;
     width: 207px;
+}
+
+.Eighth-but1{
+    background: #1B1A1A;    
+    border: none;           
+    padding: 0;            
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 133px;
+    height: 46px;
+    margin: 0 197px 40px 45px;
+    border-radius: 15px;
+}
+
+.Eighth-but2{
+    background: none;    
+    border: none;           
+    padding: 0;            
+    cursor: pointer;
+    margin: 0 507px 0 513px;
+}
+
+/*------------------------------/Eighth-----------------------------------*/
+/*------------------------------Nineth-----------------------------------*/
+
+.Ninth{
+    margin: 100px 136px;
+}
+
+.ninth-main{
+    display: flex;
+}
+
+.Ninth-text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16.02px;
+    width: 378.66px;
+}
+
+.Ninth-text1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0%;
+    opacity: 0.8;
+    margin: 4px 138.66px 14px 0;
+}
+
+.Ninth-text2{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    opacity: 0.6;
+    margin: 0 20.66px 30px 0;
+}
+
+.Ninth-but1{
+    background: none;    
+    border: none;           
+    padding: 0;            
+    cursor: pointer;
+    margin: 0 252.66px 196px 5px;
+}
+
+.Ninth-autors{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 773.33px;
+    height: 392;
+}
+
+.autors-1{
+    margin: 0 114.67px 36px 0;
+    width: 280px;
+    height: 100px;
+    display: flex;
+}
+
+.autors-2{
+    margin: 0 120.66px 36px 0;
+    width: 258px;
+    height: 100px;
+    display: flex;
+}
+
+.autors-3{
+    margin: 0 119.67px 36px 0;
+    width: 275px;
+    height: 100px;
+    display: flex;
+}
+
+.autors-4{
+    margin: 0 131.66px 36px 0;
+    width: 247px;
+    height: 100px;
+    display: flex;
+}
+
+.autors-5{
+    margin: 0 542.33px 20px 0;
+    width: 231px;
+    height: 100px;
+    display: flex;
+}
+
+.autors-1-image{
+    margin: 8px 0 8px 0.33px;
+}
+
+.autors-1-text{
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.autors-2-text{
+    display: flex;
+    flex-direction: column;
+    width: 174px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.autors-3-text{
+    display: flex;
+    flex-direction: column;
+    width: 191px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.autors-4-text{
+    display: flex;
+    flex-direction: column;
+    width: 163px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.autors-5-text{
+    display: flex;
+    flex-direction: column;
+    width: 147px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.autors-1-text1{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-left: 30.33px;
+}
+
+.autors-1-text2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0%;
+    opacity: 0.7;
+    margin-left: 30.33px;  
+}
+
+/*------------------------------/Nineth-----------------------------------*/
+/*------------------------------Tenth-----------------------------------*/
+
+.Tenth{
+    background-color: #CEC4BC;
+    display: flex;
+}
+
+.Tenth-main{
+    margin: 100px 136px;
+    width: 1168px;
+    height: 114px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Tenth-text{
+    width: 576px;
+    height: 114px;
+}
+
+.Tenth-text1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.Tenth-text2{
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 0%;
 }
