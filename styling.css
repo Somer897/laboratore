@@ -3,33 +3,28 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
     line-height: 150%;
+    scroll-behavior: smooth;
 }
 
 a {
     color: black;      
-    text-decoration: none;   
+    text-decoration: none;  
 }
 
-.container{
-    max-width: 1440px;
-    margin: 0 auto;
-}
 /*---------------------------HEADER---------------------------------*/
-header{
-    width: auto;
-}
-
 
 .header {
-    margin: 0 140px;
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px 0 20px 0;           
+    align-items: center;  
+    margin: 0 120px;  
+    height: 90px;     
+}
+
+.head-img{
+    margin: 36px 343px 35px 32px;
 }
 
 .head-links{
-    margin-top: 20px;
     display: flex;      
     align-items: center; 
     gap: 30px;
@@ -38,9 +33,25 @@ header{
 
 .black_button{
     background: none;    
-    border: none;           
-    padding: 0;            
-    cursor: pointer;        
+    border: none;                     
+    cursor: pointer;    
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    background-color: #1B1A1A;  
+    width: 155px;
+    height: 46px;
+    border-radius: 15px;
+}
+
+.Get_template{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
+
+.black_button:hover{
+    background-color: #8e9399;
 }
 /*-----------------------------/HEADER--------------------------------*/
 
@@ -56,23 +67,21 @@ header{
     align-items: center;
 }
 .First-text{
-    display: flex;
-    flex-direction: column; 
-    align-items: center; 
+    flex: 1 0 auto;
     width: 600px;      
-    margin: 77px 0px 77px 60px;    
+    margin: 77px 0 77px 60px;   
+    padding-left: 40px; 
 }
 
 .First-image{
-    display: flex;
-    margin-left: 267px;
     width: 720px;
 }
 
 h1{
     font-size: 64px;
-    font-weight: 417; 
     line-height: 70.4px;
+    font-weight: 400;
+    margin-bottom: 18px;
 }
 
 .First-p{
@@ -80,31 +89,27 @@ h1{
     line-height: 20px;
     font-size: 14px;
     letter-spacing: 2px;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .First-text2{
     max-width: 509px;
     font-size: 16px;
-    margin-right: auto;
     opacity: 0.8;
 }
 
 .Read-more{
     background: none;    
-    border: none;           
-    padding: 0;            
+    border: none;                    
     cursor: pointer; 
     margin: 30px 422px 40px 28px;
-    margin-right: auto;
     font-size: 16px;
 }
 
 /*------------------------------/FIRST-----------------------------------*/
 /*------------------------------SECOND-----------------------------------*/
 .Second{
-    margin: 100px 336px;
+    margin: 106px 336px 94px 336px;
 }
 
 .Second-block{
@@ -112,11 +117,11 @@ h1{
 }
 
 .Our-firm{
-    margin: 4px 132.66px 548px 0;
+    margin: 0 132.66px 548px 0;
     font-size: 32px;
-    font-weight: 134px;
     line-height: 38px;
     opacity: 0.8;
+    font-weight: 400;
 }
 
 .Second-text{
@@ -131,6 +136,9 @@ h1{
 
 .autor{
     display: flex;
+    margin-top: 10px;
+    width: 501px;
+    height: 100px;
 }
 .autor-text{
     margin-left: 35px;
@@ -139,17 +147,22 @@ h1{
     justify-content: center;
 }
 
+.Stephen-0{
+    margin: 8px 0 8px 0;
+    width: 84px;
+}
+
 .Stephen-1{
     font-size: 17px;
     line-height: 26px;
-    font-weight: 136px;
     margin-bottom: -10px;
+    font-weight: 400;
 }
 
 .Stephen-2{
     font-size: 14px;
     line-height: 26px;
-    font-weight: 136px;
+    opacity: 0.7;
 }
 
 /*------------------------------/SECOND-----------------------------------*/
@@ -157,34 +170,26 @@ h1{
 
 .Third{
     background-image: url('assets/IMAGE-1.jpg');
-    background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Third-1{
     margin:0 80px 0 1080px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 266px 0;
-    max-width: 600px;
 }
 
 .Text31{
     letter-spacing: 2px;
     line-height: 20px;
-    font-weight: 355;
-    font-size: 15px;
-    opacity: 0.9;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: 400;
 }
 
 .Text32{
-    letter-spacing: 0;
-    line-height: 24px;
-    font-weight: 300;
     font-size: 16px;
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 /*------------------------------/THIRD-----------------------------------*/
@@ -192,17 +197,12 @@ h1{
 
 .Fourth-main{
     width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 100px 120px;
 }
 
 .Fourth-Process{
     display: flex;
-    margin: 0 100px;
     flex-direction: column;
-    justify-content: center;
     align-items: center
 }
 
@@ -216,21 +216,19 @@ h1{
 .how-we-do{
     font-size: 39px;
     line-height: 42px;
-    letter-spacing: 0;
     margin-top: 13px;
+    font-weight: 400;
 }
 
 .Fourth-images{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     margin: 40px 16px 0 16px;
+    align-items: flex-start;
 }
 
 .sketching{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-right: 16.34px;
     align-items: center;
     max-width: 378.66px;
@@ -260,7 +258,6 @@ h1{
 .Finalizing{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-right: 15.34px;
     align-items: center;
     max-width: 378.66px;
@@ -290,7 +287,6 @@ h1{
 .Building{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-right: 16.34px;
     align-items: center;
     max-width: 378.66px;
@@ -322,34 +318,27 @@ h1{
 
 .Fifth{
     background-image: url('assets/Fifth-1.jpg');
-    background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .Fifth-1{
     margin:0 80px 0 1080px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 266px 0;
-    max-width: 600px;
+    width: 300px;
 }
 
 .Fifth-text1{
     letter-spacing: 2px;
     line-height: 20px;
-    font-weight: 355;
-    font-size: 15px;
-    opacity: 0.9;
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 400;
 }
 
 .Fifth-text2{
-    letter-spacing: 0;
-    line-height: 24px;
-    font-weight: 300;
     font-size: 16px;
-    opacity: 0.8;
+    color: #645C55;
 }
 
 /*------------------------------/Fifth-----------------------------------*/
@@ -362,28 +351,40 @@ h1{
 
 .Sixth-main{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 90px 136px 60px 146px;
+    margin: 60px 136px;
 }
 
 .Sixth-text{
     margin: 65px 132px 65px 0;
-    width: 440px;
+    width: 460px;
 }
 
 .Sixth-images{
-    margin: 0 144px 0 162px;
+    margin: 0 144px 0 0;
     display: flex;
     flex-wrap: wrap;
-    max-width: 432px;
-    gap: 96px;
+    width: 432px;
 }
 
+.Sixth-images1{
+    margin: 64px 96px 128px 40px;
+}
+
+.Sixth-images2{
+    margin: 40px 40px 96px 0;
+    height: 78px;
+}
+
+.Sixth-images3{
+    margin: 0 96px 48px 40px;
+}
+
+.Sixth-images4{
+    margin: -8px 40px 40px 0;
+}
+
+
 .Clients{
-    width: 129px;
-    height: 20px;
-    top: 10px;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -392,21 +393,18 @@ h1{
 }
 
 .customers{
-    width: 299px;
-    height: 38px;
-    top: 26px;
     font-size: 32px;
     line-height: 38px;
     color: #FFFFFF;
+    font-weight: 400;
 }
 
 .Sixth-text1{
     margin-top: 14px;
-    top: 78px;
     font-size: 15px;
     line-height: 24px;
     color: #ECE7E4;
-    font-weight: 300;
+    width: 450px;
 }
 
 /*------------------------------/Sixth-----------------------------------*/
@@ -415,36 +413,27 @@ h1{
 
 .Seventh{
     background-image: url('assets/seventh.jpg');
-    background-color: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .seventh-1{
     margin:0 1080px 0 60px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding: 266px 0;
     width: 280px;
 }
 
 .Seventh-text1{
-    width: 223;
-    height: 20;
-    top: 266px;
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
     opacity: 0.75;
+    font-weight: 400;
 
 }
 
 .Seventh-text2{
-    font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
     opacity: 0.6;
 }
 
@@ -457,16 +446,10 @@ h1{
 }
 
 .Eighth-main{
-    display: flex;
     margin: 120px 120px 100px 120px;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .Eighth-text{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     margin: 0 584px 40px 16px;
     width: 600px;
 }
@@ -479,12 +462,12 @@ h1{
 }
 
 .Eighth-text-1{
-    font-weight: 400;
     font-size: 39px;
     line-height: 42px;
+    margin-bottom: 15px;
+    font-weight: 400;
 }
 .Eighth-text-2{
-    font-weight: 400;
     font-size: 24px;
     line-height: 30px;
     opacity: 0.6;
@@ -492,20 +475,16 @@ h1{
 
 .Eighth-images1{
     width: 379px;
-    height: 460px;
 }
 
 .Eighth-images2{
-    background-image: url('assets/IMAGE\ \(4\).jpg');
-    background-color: none;
+    background-image: url('assets/IMAGE111.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 379px;
-    height: 460px;
 }
 
 .Eighth-text2{
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -513,11 +492,8 @@ h1{
 }
 
 .Eighth-text3{
-    font-weight: 400;
     font-size: 23px;
     line-height: 30px;
-    width: 207;
-    left: 0.33px;
     opacity: 0.7;
 }
 
@@ -528,20 +504,28 @@ h1{
 
 .Eighth-but1{
     background: #1B1A1A;    
-    border: none;           
-    padding: 0;            
+    border: none;                      
     cursor: pointer;
     color: #FFFFFF;
     width: 133px;
     height: 46px;
     margin: 0 197px 40px 45px;
     border-radius: 15px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.Eighth-but1:hover{
+    background-color:#8e9399;
+}
+
+.Eighth-but1-text{
+    font-size: 16px;
+    letter-spacing: 0.4px;
 }
 
 .Eighth-but2{
     background: none;    
-    border: none;           
-    padding: 0;            
+    border: none;                    
     cursor: pointer;
     margin: 0 507px 0 513px;
 }
@@ -565,37 +549,38 @@ h1{
 }
 
 .Ninth-text1{
-    font-weight: 400;
     font-size: 32px;
     line-height: 38px;
-    letter-spacing: 0%;
     opacity: 0.8;
-    margin: 4px 138.66px 14px 0;
+    margin: 4px 138.66px 15px 0;
+    font-weight: 400;
 }
 
 .Ninth-text2{
-    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    letter-spacing: 0%;
-    opacity: 0.6;
-    margin: 0 20.66px 30px 0;
+    opacity: 0.7;
+    margin: 0 20.66px 35px 0;
 }
 
 .Ninth-but1{
     background: none;    
-    border: none;           
-    padding: 0;            
+    border: none;                     
     cursor: pointer;
     margin: 0 252.66px 196px 5px;
 }
 
+.Ninth-but1-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+
 .Ninth-autors{
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap; 
     width: 773.33px;
-    height: 392;
 }
 
 .autors-1{
@@ -642,7 +627,6 @@ h1{
     flex-direction: column;
     width: 196px;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .autors-2-text{
@@ -650,7 +634,6 @@ h1{
     flex-direction: column;
     width: 174px;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .autors-3-text{
@@ -658,7 +641,6 @@ h1{
     flex-direction: column;
     width: 191px;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .autors-4-text{
@@ -666,7 +648,6 @@ h1{
     flex-direction: column;
     width: 163px;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .autors-5-text{
@@ -674,22 +655,17 @@ h1{
     flex-direction: column;
     width: 147px;
     justify-content: center;
-    align-items: flex-start;
 }
 
 .autors-1-text1{
-    font-weight: 400;
     font-size: 17px;
     line-height: 26px;
-    letter-spacing: 0%;
     margin-left: 30.33px;
 }
 
 .autors-1-text2{
-    font-weight: 400;
     font-size: 14px;
     line-height: 14px;
-    letter-spacing: 0%;
     opacity: 0.7;
     margin-left: 30.33px;  
 }
@@ -704,10 +680,7 @@ h1{
 
 .Tenth-main{
     margin: 100px 136px;
-    width: 1168px;
-    height: 114px;
     display: flex;
-    justify-content: space-between;
 }
 
 .Tenth-text{
@@ -716,7 +689,6 @@ h1{
 }
 
 .Tenth-text1{
-    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 2px;
@@ -725,7 +697,68 @@ h1{
 }
 
 .Tenth-text2{
+    font-weight: 400;
     font-size: 40px;
     line-height: 42px;
-    letter-spacing: 0%;
 }
+
+.Tenth-but{
+    background: none;    
+    border: none;                     
+    cursor: pointer;
+    width: 145px;
+    height: 46px;
+    margin: 34px 0 34px 447px;
+}
+
+.Tenth-but-text{
+    font-size: 16px;
+    letter-spacing: 0.4px;
+}
+
+/*------------------------------/Tenth-----------------------------------*/
+/*------------------------------/MAIN-----------------------------------*/
+
+/*------------------------------FOOTER-----------------------------------*/
+
+.end{
+    margin: 60px 136px;
+    height: 84px;
+    display: flex;
+}
+
+.end-text{
+    width: 694px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img{
+    width: 256px;
+    margin-bottom: 20px;
+}
+
+.powered{
+    display: flex;
+}
+
+.footer-text{
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.6;
+}
+
+.Inc{
+    display: flex;
+    flex-direction: row;
+}
+
+.end-images{
+    width: 112px;
+    margin: 59.39px 0 0 362px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
