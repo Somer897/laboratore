@@ -53,6 +53,10 @@ a {
 .black_button:hover{
     background-color: #8e9399;
 }
+
+.black_button:active{
+    background-color: aqua;
+}
 /*-----------------------------/HEADER--------------------------------*/
 
 /*------------------------------MAIN-----------------------------------*/
@@ -104,8 +108,16 @@ h1{
     cursor: pointer; 
     margin: 30px 422px 40px 28px;
     font-size: 16px;
+    transition: color 0.3s ease, transform 0.1s ease;
 }
 
+.Read-more:hover{
+    color: #8e9399;
+}
+
+.Read-more:active{
+    color: aqua;
+}
 /*------------------------------/FIRST-----------------------------------*/
 /*------------------------------SECOND-----------------------------------*/
 .Second{
@@ -518,6 +530,10 @@ h1{
     background-color:#8e9399;
 }
 
+.Eighth-but1:active{
+    background-color: aqua;
+}
+
 .Eighth-but1-text{
     font-size: 16px;
     letter-spacing: 0.4px;
@@ -528,6 +544,15 @@ h1{
     border: none;                    
     cursor: pointer;
     margin: 0 507px 0 513px;
+    transition: color 0.3s ease, transform 0.1s ease;
+}
+
+.Eighth-but2:hover{
+    color:#8e9399;
+}
+
+.Eighth-but2:active{
+    color: aqua;
 }
 
 /*------------------------------/Eighth-----------------------------------*/
@@ -568,6 +593,15 @@ h1{
     border: none;                     
     cursor: pointer;
     margin: 0 252.66px 196px 5px;
+    transition: color 0.3s ease, transform 0.1s ease;
+}
+
+.Ninth-but1:hover{
+    color: #8e9399;
+}
+
+.Ninth-but1:active{
+    color: aqua;
 }
 
 .Ninth-but1-text{
@@ -709,6 +743,15 @@ h1{
     width: 145px;
     height: 46px;
     margin: 34px 0 34px 447px;
+    transition: color 0.3s ease, transform 0.1s ease;
+}
+
+.Tenth-but:hover{
+    color: #8e9399;
+}
+
+.Tenth-but:active{
+    color: aqua;
 }
 
 .Tenth-but-text{
@@ -759,6 +802,3 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-
-
-
